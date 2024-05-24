@@ -1,26 +1,26 @@
 public class Espeon extends Eevee {
     @Override
-    public String nome (){
+    public String Nome (){
         return "Eu sou O Espeon";
     }
     @Override
-    public String ataque(){
+    public String Ataque(){
         return "Future Sight";
     }
     @Override
-    public String defesa(){
+    public String Defesa(){
         return "Magic Bounce";
     }
     @Override
-    public String especial(){
+    public String Especial(){
         return "Synchronize";
     }
     @Override
-    public String tipo(){
+    public String Tipo(){
         return "Psychic";
     }
     @Override
-    public double altura(){
+    public double Altura(){
         return 0.9;
     }
     @Override
@@ -28,7 +28,7 @@ public class Espeon extends Eevee {
         return 65;
     }
     @Override
-    public double peso(){
+    public double Peso(){
         return 26.5;
     }
 }

@@ -1,26 +1,26 @@
 public class Leafeon extends Eevee{
     @Override
-    public String nome (){
+    public String Nome (){
         return "Eu sou O Leafeon";
     }
     @Override
-    public String ataque(){
+    public String Ataque(){
         return "Giga Drain";
     }
     @Override
-    public String defesa(){
+    public String Defesa(){
         return "Chlorophyl";
     }
     @Override
-    public String especial(){
+    public String Especial(){
         return "Leaf Guard";
     }
     @Override
-    public String tipo(){
+    public String Tipo(){
         return "Grass";
     }
     @Override
-    public double altura(){
+    public double Altura(){
         return 1.0;
     }
     @Override
@@ -28,7 +28,7 @@ public class Leafeon extends Eevee{
         return 65;
     }
     @Override
-    public double peso(){
+    public double Peso(){
         return 25.5;
     }
 }

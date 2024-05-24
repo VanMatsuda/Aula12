@@ -2,36 +2,44 @@ public class Eevee {
     private String tipo;
     private int HP;
     private double altura, peso;
+    private String nome;
+    private String ataque;
+    private String defesa;
+    private String especial;
     
-    public String nome (){
+    public String Nome(){
         return "Eu sou O Eevee";
     }
-    public String ataque(){
+    public String Ataque(){
         return "Ataque rapido";
     }
-    public String defesa(){
+    public String Defesa(){
         return "Desvio";
     }
-    public String especial(){
+    public String Especial(){
         return "Tri-ataque";
     }
-    public String tipo(){
+    public String Tipo(){
         return "Normal";
     }
-    public double altura(){
+    public double Altura(){
         return 3;
     }
     public int HP(){
         return 40;
     }
-    public double peso(){
+    public double Peso(){
         return 6.5;
     }
-    public Eevee(String tipo, int hP, double altura, double peso) {
+    public Eevee(String tipo, int hP, double altura, double peso, String nome, String ataque, String defesa, String especial) {
         this.tipo = tipo;
         this.HP = hP;
         this.altura = altura;
         this.peso = peso;
+        this.nome = nome;
+        this.ataque = ataque;
+        this.defesa = defesa;
+        this.especial = especial;
     }
     public Eevee() {
     }
@@ -58,5 +66,39 @@ public class Eevee {
     }
     public void setPeso(double peso) {
         this.peso = peso;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getAtaque() {
+        return ataque;
+    }
+    public void setAtaque(String ataque) {
+        this.ataque = ataque;
+    }
+    public String getDefesa() {
+        return defesa;
+    }
+    public void setDefesa(String defesa) {
+        this.defesa = defesa;
+    }
+    public String getEspecial() {
+        return especial;
+    }
+    public void setEspecial(String especial) {
+        this.especial = especial;
+    }
+    public void imprimir (){
+    System.out.println("Nome: " + getNome());
+    System.out.println("Tipo: " + getTipo());
+    System.out.println("HP: " + getHP());
+    System.out.println("Altura: " + getAltura() + " m");
+    System.out.println("Peso: " + getPeso() + " kg");
+    System.out.println("Ataque: " +getAtaque());
+    System.out.println("Defesa: " +getDefesa());
+    System.out.println("Especial: " +getEspecial());
     }
 }

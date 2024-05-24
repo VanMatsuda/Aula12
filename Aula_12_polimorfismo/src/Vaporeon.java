@@ -1,26 +1,26 @@
 public class Vaporeon extends Eevee{
     @Override
-    public String nome (){
+    public String Nome (){
         return "Eu sou O Vaporeon";
     }
     @Override
-    public String ataque(){
+    public String Ataque(){
         return "Jato d'água - Water Pulse";
     }
     @Override
-    public String defesa(){
+    public String Defesa(){
         return "Water Pulse";
     }
     @Override
-    public String especial(){
+    public String Especial(){
         return "Hydratation";
     }
     @Override
-    public String tipo(){
+    public String Tipo(){
         return "Water";
     }
     @Override
-    public double altura(){
+    public double Altura(){
         return 1.0;
     }
     @Override
@@ -28,7 +28,7 @@ public class Vaporeon extends Eevee{
         return 130;
     }
     @Override
-    public double peso(){
+    public double Peso(){
         return 29.0;
     }
 

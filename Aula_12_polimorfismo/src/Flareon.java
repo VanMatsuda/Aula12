@@ -1,26 +1,26 @@
 public class Flareon extends Eevee {
     @Override
-    public String nome (){
+    public String Nome (){
         return "Eu sou O Flareon";
     }
     @Override
-    public String ataque(){
+    public String Ataque(){
         return "Fire Fang";
     }
     @Override
-    public String defesa(){
+    public String Defesa(){
         return "Superpower";
     }
     @Override
-    public String especial(){
+    public String Especial(){
         return "Flash Fire";
     }
     @Override
-    public String tipo(){
+    public String Tipo(){
         return "Fire";
     }
     @Override
-    public double altura(){
+    public double Altura(){
         return 0.9;
     }
     @Override
@@ -28,7 +28,7 @@ public class Flareon extends Eevee {
         return 65;
     }
     @Override
-    public double peso(){
+    public double Peso(){
         return 25.0;
     }
 }
