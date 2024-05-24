@@ -5,8 +5,8 @@ public class Pokedex {
     Espeon es = new Espeon();
     Flareon f = new Flareon();
     Glaceon g = new Glaceon();
-    Leafeon leafeon = new Leafeon();
-    Sylveon sylveon = new Sylveon();
+    Leafeon lea = new Leafeon();
+    Sylveon sy = new Sylveon();
     Umbreon u = new Umbreon();
     Vaporeon v = new Vaporeon();
 
@@ -65,25 +65,25 @@ public class Pokedex {
 
     System.out.println("");
 
-    System.out.println("Nome: " +leafeon.nome());
-    System.out.println("Tipo: "+leafeon.tipo());
-    System.out.println("HP: "+leafeon.HP());
-    System.out.println("Altura: "+leafeon.altura());
-    System.out.println("Peso: "+leafeon.peso());
-    System.out.println("Ataque: "+leafeon.ataque());
-    System.out.println("Defesa: "+leafeon.defesa());
-    System.out.println("Especial: "+leafeon.especial());
+    System.out.println("Nome: " +lea.nome());
+    System.out.println("Tipo: "+lea.tipo());
+    System.out.println("HP: "+lea.HP());
+    System.out.println("Altura: "+lea.altura());
+    System.out.println("Peso: "+lea.peso());
+    System.out.println("Ataque: "+lea.ataque());
+    System.out.println("Defesa: "+lea.defesa());
+    System.out.println("Especial: "+lea.especial());
 
     System.out.println("");
 
-    System.out.println("Nome: " +sylveon.nome());
-    System.out.println("Tipo: "+sylveon.tipo());
-    System.out.println("HP: "+sylveon.HP());
-    System.out.println("Altura: "+sylveon.altura());
-    System.out.println("Peso: "+sylveon.peso());
-    System.out.println("Ataque: "+sylveon.ataque());
-    System.out.println("Defesa: "+sylveon.defesa());
-    System.out.println("Especial: "+sylveon.especial());
+    System.out.println("Nome: " +sy.nome());
+    System.out.println("Tipo: "+sy.tipo());
+    System.out.println("HP: "+sy.HP());
+    System.out.println("Altura: "+sy.altura());
+    System.out.println("Peso: "+sy.peso());
+    System.out.println("Ataque: "+sy.ataque());
+    System.out.println("Defesa: "+sy.defesa());
+    System.out.println("Especial: "+sy.especial());
 
     System.out.println("");
 
@@ -108,6 +108,3 @@ public class Pokedex {
     System.out.println("Especial: "+v.especial());
     }
 }
-
-
-    

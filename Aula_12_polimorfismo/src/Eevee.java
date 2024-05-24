@@ -3,6 +3,8 @@ public class Eevee {
     private String tipo;
     private int HP;
     private double altura, peso;
+    private String ataque;
+    private String defesa;
 
     public String nome (){
         return "Eu sou O Eevee";
@@ -28,12 +30,14 @@ public class Eevee {
     public double peso(){
         return 6.5;
     }
-    public Eevee(String nome,String tipo, int hP, double altura, double peso) {
+    public Eevee(String nome,String tipo, int hP, double altura, double peso,String ataque, String defesa) {
         this.nome = nome;
         this.tipo = tipo;
         this.HP = hP;
         this.altura = altura;
         this.peso = peso;
+        this.ataque = ataque;
+        this.defesa = defesa;
     }
     public Eevee() {
     }
@@ -67,8 +71,17 @@ public class Eevee {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+    public String getAtaque() {
+        return ataque;
+    }
+    public void setAtaque(String ataque) {
+        this.ataque = ataque;
+    }
+    public String getDefesa() {
+        return defesa;
+    }
+    public void setDefesa(String defesa) {
+        this.defesa = defesa;
+    }
+    
 }
-    
-    
-// implementar gettrs e setters, contrutor e o imprimir e o resultado na classe Pokedex;
-//imprimir valores dos atributos e os tipos ataque/defesa/especial;
