@@ -1,23 +1,27 @@
-public class Jolteon extends Eevee {
-    @Override //sobrepor os métodos que estão na classe anterior
+public class Flareon extends Eevee {
+    @Override
+    public String nome (){
+        return "Eu sou O Flareon";
+    }
+    @Override
     public String ataque(){
-        return "Trovoada - Thunder-Shock";
+        return "Fire Fang";
     }
     @Override
     public String defesa(){
-        return "Carga - Wild Charge";
+        return "Superpower";
     }
     @Override
     public String especial(){
-        return "Raio - Thunder";
+        return "Flash Fire";
     }
     @Override
     public String tipo(){
-        return "Electric";
+        return "Fire";
     }
     @Override
     public double altura(){
-        return 0.8;
+        return 0.9;
     }
     @Override
     public int HP(){
@@ -25,6 +29,6 @@ public class Jolteon extends Eevee {
     }
     @Override
     public double peso(){
-        return 24.5;
+        return 25.0;
     }
 }
