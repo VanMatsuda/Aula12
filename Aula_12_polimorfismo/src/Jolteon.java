@@ -1,4 +1,8 @@
 public class Jolteon extends Eevee {
+    @Override
+    public String nome (){
+        return "Eu sou O Jolteon";
+    }
     @Override //sobrepor os métodos que estão na classe anterior
     public String ataque(){
         return "Trovoada - Thunder-Shock";

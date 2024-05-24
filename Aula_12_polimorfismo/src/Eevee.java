@@ -1,11 +1,8 @@
 public class Eevee {
-    private String nome;
     private String tipo;
     private int HP;
     private double altura, peso;
-    private String ataque;
-    private String defesa;
-
+    
     public String nome (){
         return "Eu sou O Eevee";
     }
@@ -30,22 +27,13 @@ public class Eevee {
     public double peso(){
         return 6.5;
     }
-    public Eevee(String nome,String tipo, int hP, double altura, double peso,String ataque, String defesa) {
-        this.nome = nome;
+    public Eevee(String tipo, int hP, double altura, double peso) {
         this.tipo = tipo;
         this.HP = hP;
         this.altura = altura;
         this.peso = peso;
-        this.ataque = ataque;
-        this.defesa = defesa;
     }
     public Eevee() {
-    }
-    public String getNome() {
-        return nome;
-    }
-    public void setNome(String nome) {
-        this.nome = nome;
     }
     public String getTipo() {
         return tipo;
@@ -71,17 +59,4 @@ public class Eevee {
     public void setPeso(double peso) {
         this.peso = peso;
     }
-    public String getAtaque() {
-        return ataque;
-    }
-    public void setAtaque(String ataque) {
-        this.ataque = ataque;
-    }
-    public String getDefesa() {
-        return defesa;
-    }
-    public void setDefesa(String defesa) {
-        this.defesa = defesa;
-    }
-    
 }
