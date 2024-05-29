@@ -1,7 +1,6 @@
 public class Umbreon extends Eevee {
-    @Override
-    public String Nome (){
-        return "Eu sou O Umbreon";
+    public Umbreon(String tipo, int hP, double altura, double peso, String nome){
+        super(tipo, hP, altura, peso, nome);
     }
     @Override
     public String Ataque(){
@@ -15,20 +14,5 @@ public class Umbreon extends Eevee {
     public String Especial(){
         return "Synchronize";
     }
-    @Override
-    public String Tipo(){
-        return "Dark";
-    }
-    @Override
-    public double Altura(){
-        return 1.0;
-    }
-    @Override
-    public int HP(){
-        return 95;
-    }
-    @Override
-    public double Peso(){
-        return 27.0;
-    }
+   
 }

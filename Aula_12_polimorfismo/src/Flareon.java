@@ -1,9 +1,9 @@
 public class Flareon extends Eevee {
-    @Override
-    public String Nome (){
-        return "Eu sou O Flareon";
-    }
-    @Override
+    public Flareon(String tipo, int hP, double altura, double peso, String nome){
+        super(tipo, hP, altura, peso, nome);
+    } 
+    
+        @Override
     public String Ataque(){
         return "Fire Fang";
     }
@@ -17,18 +17,18 @@ public class Flareon extends Eevee {
     }
     @Override
     public String Tipo(){
-        return "Fire";
+        return "Fire",65,0.9,25.0,"Flareon";
     }
-    @Override
-    public double Altura(){
-        return 0.9;
-    }
-    @Override
-    public int HP(){
-        return 65;
-    }
-    @Override
-    public double Peso(){
-        return 25.0;
-    }
+   // @Override
+    //public double Altura(){
+      //  return 0.9;
+    //}
+    //@Override
+    //public int HP(){
+      //  return 65;
+    //}
+    //@Override
+    //public double Peso(){
+      //  return 25.0;
+    //}
 }

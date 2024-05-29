@@ -1,7 +1,6 @@
 public class Leafeon extends Eevee{
-    @Override
-    public String Nome (){
-        return "Eu sou O Leafeon";
+    public Leafeon(String tipo, int hP, double altura, double peso, String nome){
+        super(tipo, hP, altura, peso, nome);
     }
     @Override
     public String Ataque(){
@@ -17,7 +16,7 @@ public class Leafeon extends Eevee{
     }
     @Override
     public String Tipo(){
-        return "Grass";
+        return "Grass",65,1.0,25.5,"Leafeon";
     }
     @Override
     public double Altura(){

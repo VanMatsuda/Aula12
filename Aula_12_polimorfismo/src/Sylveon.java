@@ -1,8 +1,7 @@
 public class Sylveon extends Eevee {
-    @Override
-    public String Nome (){
-        return "Eu sou O Sylveon";
-    }
+    public Sylveon(String tipo, int hP, double altura, double peso, String nome){
+        super(tipo, hP, altura, peso, nome);
+    } 
     @Override
     public String Ataque(){
         return "Moonblast";
@@ -14,21 +13,5 @@ public class Sylveon extends Eevee {
     @Override
     public String Especial(){
         return "Cute Charm";
-    }
-    @Override
-    public String Tipo(){
-        return "Fairy";
-    }
-    @Override
-    public double Altura(){
-        return 1.0;
-    }
-    @Override
-    public int HP(){
-        return 95;
-    }
-    @Override
-    public double Peso(){
-        return 23.5;
     }
 }
