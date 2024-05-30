@@ -1,7 +1,7 @@
 public class Glaceon extends Eevee{
-    public Glaceon(String tipo, int hP, double altura, double peso, String nome){
-        super(tipo, hP, altura, peso, nome);
-    
+    public Glaceon(String nome,String tipo, int hP, double altura, double peso){
+        super(nome,tipo, hP, altura, peso);
+    }
     @Override
     public String Ataque(){
         return "Blizzard";

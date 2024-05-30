@@ -1,7 +1,7 @@
 public class Espeon extends Eevee {
 
-    public Espeon(String tipo, int hP, double altura, double peso, String nome){
-        super(tipo, hP, altura, peso, nome);
+    public Espeon(String nome,String tipo, int hP, double altura, double peso){
+        super(nome,tipo, hP, altura, peso );
     } 
         @Override
     public String Ataque(){
@@ -15,4 +15,4 @@ public class Espeon extends Eevee {
     public String Especial(){
         return "Synchronize";
     }
-  }
+}

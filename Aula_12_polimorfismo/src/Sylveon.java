@@ -1,7 +1,7 @@
 public class Sylveon extends Eevee {
-    public Sylveon(String tipo, int hP, double altura, double peso, String nome){
-        super(tipo, hP, altura, peso, nome);
-    } 
+    public Sylveon(String nome,String tipo, int hP, double altura, double peso){
+        super(nome,tipo, hP, altura, peso);
+    }
     @Override
     public String Ataque(){
         return "Moonblast";

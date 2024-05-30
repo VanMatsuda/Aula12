@@ -1,6 +1,6 @@
 public class Jolteon extends Eevee {
-    public Jolteon(String tipo, int hP, double altura, double peso, String nome){
-        super(tipo, hP, altura, peso, nome);
+    public Jolteon(String nome,String tipo, int hP, double altura, double peso){
+        super(nome,tipo, hP, altura, peso);
     }
     @Override //sobrepor os métodos que estão na classe anterior
     public String Ataque(){
@@ -14,4 +14,4 @@ public class Jolteon extends Eevee {
     public String Especial(){
         return "Raio - Thunder";
     }
-   }
+}

@@ -1,6 +1,6 @@
 public class Vaporeon extends Eevee{
-    public Vaporeon(String tipo, int hP, double altura, double peso, String nome){
-        super(tipo, hP, altura, peso, nome);
+    public Vaporeon(String nome,String tipo, int hP, double altura, double peso){
+        super(nome,tipo, hP, altura, peso);
     }
     @Override
     public String Ataque(){

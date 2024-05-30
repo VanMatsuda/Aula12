@@ -1,10 +1,10 @@
 public class Eevee {
+    private String nome;
     private String tipo;
     private int HP;
     private double altura, peso;
-    private String nome;
         
-        public String Ataque(){
+    public String Ataque(){
         return "Ataque rapido";
     }
     public String Defesa(){
@@ -13,16 +13,13 @@ public class Eevee {
     public String Especial(){
         return "Tri-ataque";
     }
-   
-    public Eevee(String tipo, int hP, double altura, double peso, String nome) {
+    public Eevee(String nome,String tipo, int hP, double altura, double peso) {
+        this.nome = nome;
         this.tipo = tipo;
         this.HP = hP;
         this.altura = altura;
         this.peso = peso;
-        this.nome = nome;
-        
     }
-         
     public String getTipo() {
         return tipo;
     }
@@ -59,5 +56,8 @@ public class Eevee {
     System.out.println("HP: " + getHP());
     System.out.println("Altura: " + getAltura() + " m");
     System.out.println("Peso: " + getPeso() + " kg");
+    System.out.println("Ataque: " + Ataque());
+    System.out.println("Defesa: " + Defesa());
+    System.out.println("Especial: " + Especial());
     }
 }
